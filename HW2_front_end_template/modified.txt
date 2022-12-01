@@ -1,0 +1,17 @@
+shopOrder.php
+172 *<form action = myOrderDetailShop.php method = "POST">
+173 +<input type = "hidden" name = "sType" id = "sType" value = {$_POST['sType']}>
+
+myOrder.php
+170 +<input type = "hidden" name = "sType" id = "sType" value = {$_POST['sType']}>
+
+myOrderDetailShop.php & myOrderDetail.php
+93 +<input type = "hidden" name = "sType" id = "sType" value = {$_POST['sType']}>
+
+myOrderDetailShop.php
+106 *window.location.replace("shopOrder.php");
+
+product_add.php
+3 *if($_SESSION['Authenticated']==false)
+59 *window.location.replace("nav.html");
+73 *window.location.replace("nav.html");
